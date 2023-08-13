@@ -5,11 +5,34 @@ nav{
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+img{
+    background-color: transparent;
+    border-color: transparent;
+}
+img:hover{
+    background-color: #a2d6f9;
+}
 button{
     background-color: transparent;
     border-color: transparent;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #a2d6f9;
+}
+.puntos{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.user{
+    width: 22px;
+    height: 22px;
 }
 .contenedor{
    text-align: center;
@@ -30,9 +53,14 @@ span{
     width: 700px;
     height: 35px;
     border-radius: 20px;
+    background-color: transparent;
+}
+.buscador:hover{
+    background-color: #a2d6f9;
 }
 .buscar{
     display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
     font-family: 'Oswald', sans-serif;
@@ -45,6 +73,21 @@ span{
     margin-right: auto;
     margin-top: 50px;
 }
-.search{
+.suerte{
+display: flex;
+display: inline;
+justify-content: center;
+align-items: center;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+width: 200px;
+height: 30px;
+border-radius: 5px;
+border-color: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+}
+a{
     text-decoration: none;
 }
