@@ -90,4 +90,24 @@ margin-top: 50px;
 }
 a{
     text-decoration: none;
+    text-align: center;
+}
+.Mexico{
+    display: flex;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    align-content: center;
+    text-align: center;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.pie{
+    background-color: #e5e5e5;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
 }
